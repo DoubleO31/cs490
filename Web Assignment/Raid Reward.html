@@ -13,12 +13,53 @@
     <h1 id="webtitle"> Pokemon Go Raid Assistant </h1>
     <ul class="horizonul">
       <li class="horizonli"><a href="Pokemon Go Raid Assistant.html">Raid Boss</a></li>
-      <li class="horizonli"><a class="active" href="#raidreward">Raid Reward</a></li>
+      <li class="horizonli"><a class="active" href="#raidreward">Raid Reward Simulator</a></li>
       <li class="horizonli"><a href="Raid Calculator.html">Raid Catch Rate Calculator</a></li>
       <li class="horizonli"><a href="#more">More to come..</a></li>
     </ul>
   </div>
-  <p> raidreward</p>
+</div>
+  <div class="caldiv">
+    <ul class="horizonul">
+      <li class="horizonli">
+        <h2>Raid Boss Tier</h2>
+        <div class="select">
+          <select required id="raidbosstier">
+          <option value="">Select Raid Boss Tier:</option>
+          <option value="1">Tier: 1</option>
+          <option value="2">Tier: 2</option>
+          <option value="3">Tier: 3</option>
+          <option value="4">Tier: 4</option>
+          <option value="4">Tier: 5</option>
+        </select>
+        </div>
+      </li>
+      <li class="horizonli">
+        <h2>Balls Earned</h2>
+        <div class="select">
+          <select required id="balls">
+          <option value="">Select Balls Earned:</option>
+          <option value="1">6</option>
+          <option value="2">7</option>
+          <option value="3">8</option>
+          <option value="4">9</option>
+          <option value="5">10</option>
+          <option value="6">11</option>
+          <option value="7">12</option>
+          <option value="8">13</option>
+          <option value="9">14</option>
+        </select>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="calculate">
+    <button class="button" onclick="RewardFunction()">Simulate</button>
+  </div>
+  <div class = "Rewardsult">
+    <p id="Rewardlist"></p>
+    <p id="gamepress"> Data and formula from thesilphroad.com </p>
+  </div>
 </body>
 
 </html>
