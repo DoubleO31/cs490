@@ -30,6 +30,12 @@
   background-color: yellow;
 }
 
+.navigation {
+  max-width: 1200px;
+  margin: auto;
+  font-size: 20px;
+}
+
 .bosses {
   max-width: 1000px;
   margin: auto;
@@ -47,10 +53,6 @@
   margin-right:0px;
   margin-top:0px;
   margin-bottom:0px;
-}
-.navigation {
-  max-width: 1200px;
-  margin: auto;
 }
 
 .l5 {
