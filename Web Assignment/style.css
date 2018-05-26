@@ -25,14 +25,15 @@ body {
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
+  background-color: yellow;
 }
 
 .horizonli a:hover {
-  background-color: yellow;
+  background-color: orange;
 }
 
 .horizonli .active {
-  background-color: yellow;
+  background-color: orange;
 }
 
 .navigation {
@@ -119,24 +120,17 @@ body {
 .l5 img:hover+div {
   cursor: pointer;
   display: block;
-  /*visibility: visible; */
   width: 500px;
   line-height: 20px;
-  padding: 8px;
+  padding: 20px;
   font-size: 20px;
   text-align: center;
-  z-index: 999;
   color: black;
-  background: rgb(255, 255, 255);
+  background: orange;
   border: 4px solid rgb(255, 255, 255);
   border-radius: 5px;
   text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
   box-shadow: #333 -4px 4px 16px 2px;
-  -webkit-transition: opacity 100ms ease-in;
-  -o-transition: opacity 100ms ease-in;
-  -moz-transition: opacity 100ms ease-in;
-  transition: opacity 100ms ease-in;
-  pointer-events: none;
 }
 
 .l5 div:after {
