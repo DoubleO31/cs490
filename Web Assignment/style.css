@@ -57,28 +57,57 @@
   position: relative;
 }
 
-.l5 div {
-  /*visiblity: hidden; */
-
+.latiosboss div {
   display: none;
   position: absolute;
-  top: 50%;
-  left:20%;
-  margin-top: -30px; /* approx adjustment for arrow */
+  top: 40%;
+  left:15%;
+  margin-top: -100px; /* approx adjustment for arrow */
   margin-left: 25px; /* approx adjustment for arrow */
+}
+
+.latiasboss div {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left:15%;
+  margin-top: -100px; /* approx adjustment for arrow */
+  margin-left: 200px; /* approx adjustment for arrow */
+}
+
+.hoohboss div {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left:15%;
+  margin-top: -100px; /* approx adjustment for arrow */
+  margin-left: 400px; /* approx adjustment for arrow */
+}
+
+.hoohboss{
+    margin-top:-50px;
+}
+
+.mewtwoboss div {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left:15%;
+  margin-top: -100px; /* approx adjustment for arrow */
+  margin-left: 550px; /* approx adjustment for arrow */
 }
 
 .l5 img:hover + div {
   cursor: pointer;
   display: block;
   /*visibility: visible; */
-  width: 300px;
+  width: 500px;
   line-height: 20px;
   padding: 8px;
-  font-size: 14px;
+  font-size: 20px;
   text-align: center;
   z-index: 999;
-  color: rgb(113, 157, 171);
+  color: black;
   background: rgb(255, 255, 255);
   border: 4px solid rgb(255, 255, 255);
   border-radius: 5px;
@@ -99,6 +128,12 @@
   border-width: 10px;
   border-style: solid;
   border-color: transparent #FFFFFF transparent transparent;
-  top: 22px;
+  top: 130px;
   left: -23px;
+}
+
+.counter {
+  display: block;
+  position: absolute;
+
 }
