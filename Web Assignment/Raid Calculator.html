@@ -18,8 +18,72 @@
       <li class="horizonli"><a href="#more">More to come..</a></li>
     </ul>
   </div>
-
-  <p> raidcalculator</p>
+    <div class="caldiv">
+      <ul class="horizonul">
+        <li class="horizonli">
+          <h2>Raid Boss</h2>
+          <div class="select">
+            <select required id="raidboss">
+            <option value="">Select Raid Boss:</option>
+            <option value="1">Latios</option>
+            <option value="2">Latias</option>
+            <option value="3">Ho-oh</option>
+            <option value="4">Mewtwo</option>
+          </select>
+          </div>
+        </li>
+        <li class="horizonli">
+          <h2>Berry</h2>
+          <div class="select">
+            <select required id="berry">
+            <option value="">Select Berry:</option>
+            <option value="1">None</option>
+            <option value="2">Golden Razzberry</option>
+            <option value="3">Razzberry</option>
+          </select>
+          </div>
+        </li>
+        <li class="horizonli">
+          <h2>Throw Bonus</h2>
+          <div class="select">
+            <select required id="throwbonus">
+            <option value="">Select Throw Bonus:</option>
+            <option value="1">None</option>
+            <option value="2">Nice</option>
+            <option value="3">Great</option>
+            <option value="4">Excellent</option>
+          </select>
+          </div>
+        </li>
+        <li class="horizonli">
+          <h2>Curveball?</h2>
+          <div class="select">
+            <select id="curveball">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+          </select>
+          </div>
+        </li>
+        <li class="horizonli">
+          <h2>Medal</h2>
+          <div class="select">
+            <select required id="medal">
+            <option value="">Select Medal:</option>
+            <option value="1">None</option>
+            <option value="2">Gold(Single Type)</option>
+            <option value="3">Silver(Single Type)</option>
+            <option value="4">Bronze(Single Type)</option>
+          </select>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="calculate">
+      <button class="button" onclick="CateRateFunction()">Calculate</button>
+    </div>
+    <div class = "catchrateresult">
+      <p id="Probability"></p>
+    </div>
 </body>
 
 </html>
